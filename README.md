@@ -13,12 +13,21 @@ Press = Click and Hold).
 MPU6050 Sensor:
 - VCC: Power supply (usually 5V)
 - GND: Ground
-- SDA: Data line (connected to D2 on Pro Micro)
-- SCL: Clock line (connected to D3 on Pro Micro)
+- SDA: Data line (connected to D2 on Pro Micro)- SCL: Clock line (connected to D3 on Pro Micro)
+
+
 TTP Touch Sensor:
 - VCC: Connected to VCC on Pro Micro
 - GND: Connected to GND on Pro Micro
 - OUT: Data line (connected to D4 on Pro Micro)
+
+
+Pro Micro (ATmega32U4) Pin Assignments:
+1. VCC: Power supply
+2. GND: Ground
+3. D2: SDA line for MPU6050
+4. D3: SCL line for MPU6050
+5. D4: OUT line for TTP sensor
 Pro Micro (ATmega32U4) Pin Assignments:
 1. VCC: Power supply
 2. GND: Ground
